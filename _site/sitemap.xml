@@ -3,7 +3,22 @@
   
     
     <url>
-      <loc>http://joshgerdes.com/jekyll-uno/2016/welcome-to-jekyll/</loc>
+      <loc>http://example.com/jekyll/update/2016/10/25/welcome-to-jekyll.html</loc>
+      
+        <lastmod>2016-10-25T18:01:54-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://example.com/jekyll/2016/01/08/welcome-to-jekyll.html</loc>
       
         <lastmod>2016-01-08T07:04:23-08:00</lastmod>
       
@@ -19,24 +34,9 @@
   
     
     <url>
-      <loc>http://joshgerdes.com/jekyll-uno/categories/</loc>
+      <loc>http://example.com/about/</loc>
       
-        <lastmod>2016-10-25T17:51:28-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://joshgerdes.com/jekyll-uno/feed.xml</loc>
-      
-        <lastmod>2016-10-25T17:51:28-07:00</lastmod>
+        <lastmod>2016-10-25T18:05:02-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -49,9 +49,9 @@
   
     
     <url>
-      <loc>http://joshgerdes.com/jekyll-uno/</loc>
+      <loc>http://example.com/categories/</loc>
       
-        <lastmod>2016-10-25T17:51:28-07:00</lastmod>
+        <lastmod>2016-10-25T18:05:02-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -64,9 +64,54 @@
   
     
     <url>
-      <loc>http://joshgerdes.com/jekyll-uno/js/main.js</loc>
+      <loc>http://example.com/feed.xml</loc>
       
-        <lastmod>2016-10-25T17:51:28-07:00</lastmod>
+        <lastmod>2016-10-25T18:05:02-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://example.com/</loc>
+      
+        <lastmod>2016-10-25T18:05:02-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://example.com/js/main.js</loc>
+      
+        <lastmod>2016-10-25T18:05:02-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://example.com/css/main.css</loc>
+      
+        <lastmod>2016-10-25T18:05:02-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,9 +126,9 @@
   
     
     <url>
-      <loc>http://joshgerdes.com/jekyll-uno/tags/</loc>
+      <loc>http://example.com/tags/</loc>
       
-        <lastmod>2016-10-25T17:51:28-07:00</lastmod>
+        <lastmod>2016-10-25T18:05:02-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

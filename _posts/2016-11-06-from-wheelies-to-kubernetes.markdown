@@ -1,10 +1,10 @@
 ---
-title:  "From Wheelies to Kubernetes"
+title:  "From Wheelies to Kubernetes."
 date:   2016-11-06 15:04:23
 categories: [Ada]
 tags: [Ada]
 ---
-### I want a new career!
+### I want a new career.
 
 
 So I decide I don’t want to stunt motorcycles professionally for the rest of my life. It has begun to feel more like...work...if you know what I mean. And if I have to work for a living I want a job where breaking your neck is a less likely outcome of the day to day. 

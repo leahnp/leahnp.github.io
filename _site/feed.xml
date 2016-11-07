@@ -5,33 +5,33 @@
     <description>Motorcycle stunt woman turned developer, intern on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Nov 2016 18:12:47 -0800</pubDate>
-    <lastBuildDate>Sun, 06 Nov 2016 18:12:47 -0800</lastBuildDate>
+    <pubDate>Mon, 07 Nov 2016 08:50:40 -0800</pubDate>
+    <lastBuildDate>Mon, 07 Nov 2016 08:50:40 -0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>From Wheelies to Kubernetes.</title>
+        <title>From Wheelies to Kubernetes</title>
         <description>&lt;h3 id=&quot;i-want-a-new-career&quot;&gt;I want a new career.&lt;/h3&gt;
 
-&lt;p&gt;So I decide I don’t want to stunt motorcycles professionally for the rest of my life. It has begun to feel more like…work…if you know what I mean. And if I have to work for a living I want a job where breaking your neck is a less likely outcome of the day to day.&lt;/p&gt;
+&lt;p&gt;So I decided I didn’t want to stunt motorcycles professionally for the rest of my life. It had begun to feel more like…work…if you know what I mean. And if I have to work for a living I wanted a job where breaking your neck is a less likely outcome of the day to day.&lt;/p&gt;
 
-&lt;p&gt;I want to do something quantifiable, a job where my skills can be measured and have a clear market value. No more art, performance or marketing - I want a job where I can deliver a product and see it succeed in production (then get well paid for it, end of story).&lt;/p&gt;
+&lt;p&gt;I wanted to do something quantifiable, a job where my skills can be measured and have a clear market value. No more art, performance or marketing - I wanted a job where I could deliver a product and see it succeed in production (then get well paid for it, end of story).&lt;/p&gt;
 
-&lt;p&gt;I never considered computer programming, it just wasn’t on my list of possibilities. But in the middle of this search for my next career I had started 3D modeling using blender (which is relatively technical), then I started animating a few things (a bit more technical…you see where this is going) and finally I thought, it would be pretty cool to manipulate this stuff on code level. So I enrolled in my first computer programming course.&lt;/p&gt;
+&lt;p&gt;I never considered computer programming, it just wasn’t on my list of possibilities. In the middle of this search for my next career I had started 3D modeling (which is relatively technical), then I started animating a few things (a bit more technical…you see where this is going) and finally I thought, it would be pretty cool to manipulate this stuff on a code level. So I enrolled in my first computer programming course.&lt;/p&gt;
 
-&lt;p&gt;To my surprise, not only could I do the work with relative ease, I actually liked solving the problems. I took a few more online courses, but now, how do I get a job in an industry typically reserved for Stanford grads and ‘math people’ when my resume read ‘wheelies all around the world’. Enter, &lt;a href=&quot;http://adadevelopersacademy.org/&quot;&gt;Ada Developers Academy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To my surprise I actually liked solving coding problems. I took a few more online courses, but now, how would I get a job in an industry typically reserved for Stanford grads and ‘math people’ when my resume read ‘wheelies all around the world’. Enter, &lt;a href=&quot;http://adadevelopersacademy.org/&quot;&gt;Ada Developers Academy&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Ada is a free, highly selective, year long web developer program for women. Ada’s primary mission is changing the face of the technology industry. Most of the students including myself, never thought of computer science as an option because we have no/few role models in the industry. I like riding horses, motorcycles, yoga, fashion, hiking, travel, language, I do NOT like video games, hoodies and junk food - so is there a place for me in tech? Apparently Ada thought there was and I was accepted. I started class in February 2016.&lt;/p&gt;
+&lt;p&gt;Ada is a free, highly selective, year long web developer program for women. Ada’s primary mission is changing the face of the technology industry. Most of the students including myself, never thought of computer science as an option because we have no/few role models in the industry. I like riding horses, motorcycles, yoga, fashion, hiking, travel, language - so is there a place for me in tech? Apparently Ada thought there was and I was accepted. I started class in February 2016.&lt;/p&gt;
 
 &lt;h3 id=&quot;ada-developers-academy---accepted&quot;&gt;Ada Developers Academy - Accepted!&lt;/h3&gt;
 
-&lt;p&gt;The first 7 months of the program are spent in the classroom learning everything from Git to Ruby to Node to Test Driven Development. The seventh month is spent working on a solo capstone project. I created an app called Centaur that tracked the movement of my horse and used machine learning to identify when she was walk, trot or cantering during a training session. How far I had come in just a half year.&lt;/p&gt;
+&lt;p&gt;The first 7 months of the program are spent in a classroom learning everything from Git to Ruby to Node to Test Driven Development. The seventh month is spent working on a solo capstone project. I created an app called Centaur that tracked the movement of my horse and used machine learning to identify when she was walk, trot or cantering during a training session. How far I had come in just a half year.&lt;/p&gt;
 
-&lt;p&gt;The last 5 month of Ada is spent in an internship at one of their many sponsoring companies. I was placed on the &lt;a href=&quot;http://www.samsungsdsa.com/cloud-infrastructure_kubernetes&quot;&gt;Cloud Native Computing Team&lt;/a&gt; at Samsung SDS. I am half way into the internship and am working on a centralized logging system for a Kubernetes cluster (so many words in that sentence that I didn’t know the meaning of a few short months ago).&lt;/p&gt;
+&lt;p&gt;The last 5 month of Ada is spent in an internship at one of their many sponsoring companies. I was placed on the &lt;a href=&quot;http://www.samsungsdsa.com/cloud-infrastructure_kubernetes&quot;&gt;Cloud Native Computing Team&lt;/a&gt; at Samsung SDSA. I am half way into the internship and am working on a centralized logging system for a Kubernetes cluster (so many words in that sentence that I didn’t know the meaning of a few short months ago).&lt;/p&gt;
 
 &lt;p&gt;That’s my story, from wheelies and burnouts to employable in an industry that is relevant, aggressively hiring and offers diverse options around the world working with just about anything you can think of.&lt;/p&gt;
 
-&lt;p&gt;I still haven’t met anyone like me in the industry, but I have come to see how I can apply the crazy, weird skills I have learned in my unconventional life to solve problems and build products in a way your classically trained CS student cannot.&lt;/p&gt;
+&lt;p&gt;While the industry still has a ways to go regarding diversity, I have come to see how I do have a place in tech and how I can apply all my bizarre skills I have learned in my unconventional life to solve problems and build products in a way your classically trained CS student cannot.&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 06 Nov 2016 07:04:23 -0800</pubDate>

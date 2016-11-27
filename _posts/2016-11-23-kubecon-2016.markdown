@@ -1,0 +1,11 @@
+---
+title:  "Kubecon 2016"
+date:   2016-11-23 08:04:23
+categories: [Kubernetes]
+tags: [Kubernetes]
+---
+### My first developers conference!
+
+After working since September on the Samsung Cloud Native Computing team, I had the chance to go to Kubecon in Seattle, WA. We use Kubernetes daily so Kubecon was a great chance to see how other companies are using Kubernetes and the technologies growing around it. 
+
+The Cloud Native Computing Foundation posted a blog I wrote about my experience [HERE](https://www.cncf.io/blog/2016/11/18/diversity-scholarship-series-time-cloudnativecon-2016).

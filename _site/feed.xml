@@ -5,9 +5,28 @@
     <description>Motorcycle stunt woman turned developer, intern on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Nov 2016 19:42:41 -0800</pubDate>
-    <lastBuildDate>Tue, 08 Nov 2016 19:42:41 -0800</lastBuildDate>
+    <pubDate>Sat, 26 Nov 2016 16:49:50 -0800</pubDate>
+    <lastBuildDate>Sat, 26 Nov 2016 16:49:50 -0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Kubecon 2016</title>
+        <description>&lt;h3 id=&quot;my-first-developers-conference&quot;&gt;My first developers conference!&lt;/h3&gt;
+
+&lt;p&gt;After working since September on the Samsung Cloud Native Computing team, I had the chance to go to Kubecon in Seattle, WA. We use Kubernetes daily so Kubecon was a great chance to see how other companies are using Kubernetes and the technologies growing around it.&lt;/p&gt;
+
+&lt;p&gt;The Cloud Native Computing Foundation posted a blog I wrote about my experience &lt;a href=&quot;https://www.cncf.io/blog/2016/11/18/diversity-scholarship-series-time-cloudnativecon-2016&quot;&gt;HERE&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Nov 2016 00:04:23 -0800</pubDate>
+        <link>http://leahnp.github.io/2016/kubecon-2016/</link>
+        <guid isPermaLink="true">http://leahnp.github.io/2016/kubecon-2016/</guid>
+        
+        <category>Kubernetes</category>
+        
+        
+        <category>Kubernetes</category>
+        
+      </item>
     
       <item>
         <title>From Wheelies to Kubernetes</title>

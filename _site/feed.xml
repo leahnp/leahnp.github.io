@@ -5,13 +5,13 @@
     <description>Motorcycle stunt woman turned developer, software engineer intern on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Dec 2016 07:28:14 -0800</pubDate>
-    <lastBuildDate>Tue, 13 Dec 2016 07:28:14 -0800</lastBuildDate>
+    <pubDate>Tue, 13 Dec 2016 07:30:29 -0800</pubDate>
+    <lastBuildDate>Tue, 13 Dec 2016 07:30:29 -0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Capstone Project: Centaur App</title>
-        <description>&lt;h3 id=&quot;ada-developers-academy-capstone-project-centaur-app&quot;&gt;Ada Developers Academy Capstone Project: Centaur App&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;ada-developers-academy-capstone-project&quot;&gt;Ada Developers Academy Capstone Project&lt;/h3&gt;
 
 &lt;p&gt;Goal: Create an application that will record the motion data from my horse moving and identify if she was walking, trotting or cantering.&lt;/p&gt;
 

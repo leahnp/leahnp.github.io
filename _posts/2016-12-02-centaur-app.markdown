@@ -4,7 +4,7 @@ date:   2016-12-02 11:04:23
 categories: [Ada]
 tags: [Ada]
 ---
-### Ada Developers Academy Capstone Project: Centaur App
+### Ada Developers Academy Capstone Project
 
 
 Goal: Create an application that will record the motion data from my horse moving and identify if she was walking, trotting or cantering. 

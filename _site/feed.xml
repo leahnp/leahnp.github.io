@@ -2,12 +2,133 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leah Petersen</title>
-    <description>Motorcycle stunt woman turned developer, software engineer intern on the Samsung Cloud Native Computing Team.</description>
+    <description>Motorcycle stunt woman turned developer, DevOps Engineer specializing in Kubernetes on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Jan 2017 13:25:11 -0500</pubDate>
-    <lastBuildDate>Sun, 22 Jan 2017 13:25:11 -0500</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2018 17:15:03 -0500</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 17:15:03 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Certified Kubernetes Administrator Exam (CKA)</title>
+        <description>&lt;p&gt;I’ve never been an “exam type”. Attending a liberal arts school like Sarah Lawrence College, then moving into a freelance motorcycle stunt riding career, I have found my comfort zone in creating big projects to prove my skills. So when my team at Samsung floated the idea of taking the brand-new (“Certified Kubernetes Administrator”)[https://www.cncf.io/certification/expert/] exam, I was intimidated - to say the least!&lt;/p&gt;
+
+&lt;p&gt;According to the Cloud Native Computing Foundation website, “The Certified Kubernetes Administrator (CKA) program was created by the Cloud Native Computing Foundation (CNCF), in collaboration with The Linux Foundation, to help develop the Kubernetes ecosystem.”&lt;/p&gt;
+
+&lt;p&gt;I started looking into what the exam would cover, which was exactly…everything. Here are the topics: Application Lifecycle Management, Installation, Configuration &amp;amp; Validation, Core Concepts, Networking, Scheduling, Security, Cluster Maintenance, Logging / Monitoring, Storage and Troubleshooting.&lt;/p&gt;
+
+&lt;p&gt;At this point I had been working with Kubernetes for a year, but I just didn’t feel confident I had deep knowledge in all of these categories. Despite my uncertainty, this was an excellent opportunity to study up and test my knowledge.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-i-prepared&quot;&gt;How I prepared:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I started using VIM full time (the test is entirely terminal based and you have to be QUICK!).&lt;/li&gt;
+  &lt;li&gt;I read the (Kubernetes documentation)[https://kubernetes.io/docs/home/] and did the corresponding tutorials.&lt;/li&gt;
+  &lt;li&gt;I researched JuJu and the (Canonical Kubernetes)[https://jujucharms.com/canonical-kubernetes/] cluster specs (it was pretty different than how our teams’ clusters).&lt;/li&gt;
+  &lt;li&gt;I went through Kelsey Hightower’s (“Kubernetes the Hard Way”)[https://github.com/kelseyhightower/kubernetes-the-hard-way].&lt;/li&gt;
+  &lt;li&gt;I brushed up on etcd and (etcdctl)[https://github.com/coreos/etcd/tree/master/etcdctl].&lt;/li&gt;
+  &lt;li&gt;I studied with my team - this was great to soak up other people’s expertise in certain areas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finally, I’d done all I could to prepare and it was exam day. The exam was capped at 3 hours (I took the full 3 hours) and I was being watched through my video camera by a moderator (no drinks, notes or other people in the room). Throughout the test you are given tasks and various clusters in different states to perform these tasks on. It was actually pretty cool to work on and troubleshoot real clusters.&lt;/p&gt;
+
+&lt;h4 id=&quot;tips-for-during-the-exam&quot;&gt;Tips for during the exam:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Keep notes on each question, document things that didn’t work or half worked and if you finished the question with confidence.&lt;/li&gt;
+  &lt;li&gt;Time cap each question, move on if you hit the time cap.&lt;/li&gt;
+  &lt;li&gt;When you get through all the questions, go back through your notes and work on the questions you didn’t quite finished.&lt;/li&gt;
+  &lt;li&gt;Check out the official breakdown of how each “problem category” is weighted. For example, if you think the question you are working on falls under “Core Concepts” (worth 19%) prioritize it over a “Logging / Monitoring” question (worth 5%).&lt;/li&gt;
+  &lt;li&gt;Factor in one short break to stretch, drink water or use the restroom.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m not going to say it was a breeze, but in the end and on my second try, I did pass the exam. I certainly would not have guessed a year ago, when I was still in bootcamp, that I would be a “Certified Kubernetes Administrator” by the following summer!&lt;/p&gt;
+
+&lt;p&gt;Special thanks to my awesome teammates at Samsung Cloud Native Computing Team for their support.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.cncf.io/wp-content/uploads/2017/07/logo_cka_whitetext-2.png&quot; alt=&quot;CKA badge&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Oct 2017 15:24:27 -0400</pubDate>
+        <link>http://leahnp.github.io/2017/certified-kubernetes-administrator-exam/</link>
+        <guid isPermaLink="true">http://leahnp.github.io/2017/certified-kubernetes-administrator-exam/</guid>
+        
+        <category>Kubernetes</category>
+        
+        
+        <category>Kubernetes</category>
+        
+      </item>
+    
+      <item>
+        <title>Ada: What to Expect</title>
+        <description>&lt;h3 id=&quot;ada-developers-academy-getting-accepted-and-what-to-expect&quot;&gt;Ada Developers Academy: Getting Accepted and What to Expect&lt;/h3&gt;
+
+&lt;p&gt;“&lt;a href=&quot;http://adadevelopersacademy.org/&quot;&gt;Ada Developers Academy&lt;/a&gt; is a training program located in Seattle, Washington for women and non-binary people who want to become software developers.&lt;/p&gt;
+
+&lt;p&gt;Ada is tuition-free and is comprised of 6 months of full-time classroom training followed by 5 months in a paid industry internship.”&lt;/p&gt;
+
+&lt;p&gt;Ya, you read that right, Ada is a 11 month program that teaches you to code for free. You graduate with an internship on your resume and an extremely good chance of landing a job - quickly. Currently the program has a 97% job placement rate.&lt;/p&gt;
+
+&lt;p&gt;You might be thinking, what’s the catch? I graduated in February 2017 and am here to tell you, the only catch is, you gotta go all in. It’s a commitment: time, money, relationships, possibly your health and mental health. If you’re prepared and able to take a year, that year will undoubtedly change your life. You will learn more than you ever imagined, join an army of women bound for success in their new tech careers and get a high-paying job as an engineer, with your new, in-demand skills.&lt;/p&gt;
+
+&lt;h3 id=&quot;get-accepted&quot;&gt;Get Accepted&lt;/h3&gt;
+
+&lt;p&gt;The application process is pretty long and difficult. If you can, carve a few days out to dedicate to the application. On the technical questions, I took about a week, answering the questions and revising my answers multiple times. Take your time with the answers, sleep on them, revise them, explain yourself, notice the details. For the character questions, be honest and articulate what makes you unique, what you’re passionate about.&lt;/p&gt;
+
+&lt;p&gt;If you are waiting for an application window to open, take some online programming courses. I recommend Ruby or Python, there are good ones on Coursera or Codeacademy. Try some tutorials on Git and terminal commands. These will be helpful, but you do not need to know how to code to get into Ada.&lt;/p&gt;
+
+&lt;h4 id=&quot;interviews&quot;&gt;Interviews&lt;/h4&gt;
+
+&lt;p&gt;For the in person interview portion, remember the people interviewing you are on your side. They are most likely volunteers who really believe in this program and the mission. Show them you care and you are dedicated. Describe things you have accomplished in the past, things you care deeply about, even if you think they are trivial - YOU DID IT, so be proud of that.&lt;/p&gt;
+
+&lt;p&gt;They want to accept people who will not only succeed in the program, but go on to succeed in the industry. They want people who can not only hack it - but redefine the environments they enter.&lt;/p&gt;
+
+&lt;p&gt;For the technical in person interview, take a deep breath and remember they don’t expect you to KNOW all the answers, they are more interested in your thought process. Reason out loud, if you hit a deadend with your logic, start over and use what you learned to move forward. Try to think of it as a puzzle or game - not a test!&lt;/p&gt;
+
+&lt;h3 id=&quot;once-accepted-hey---congrats&quot;&gt;Once Accepted (Hey - Congrats!)&lt;/h3&gt;
+
+&lt;p&gt;In the weeks you have between your acceptance letter and starting Ada - do your laundry, say goodbye to your friends, buy anything you need to survive for the year and do the jumpstart work they send you. Meetup with the other members of your cohort and sleep. For real.&lt;/p&gt;
+
+&lt;p&gt;The course portion will be a blur, you will feel behind, but you probably are not. Prepare yourself to be thrown in the deep end every Monday and just as you start to get your feet under you, Monday will come again and throw you straight back in the deep end. It’s fine, trust the teachers, trust the program and show up ready to learn.&lt;/p&gt;
+
+&lt;p&gt;Capstone project time will come up quick, be sure to create a detailed plan for your project with your professor. Recognize the time and resource limits. You will want to create something illustrious, but in the end if your project works - you win.&lt;/p&gt;
+
+&lt;p&gt;I chose a hardware/machine learning capstone - you can read about it &lt;a href=&quot;https://leahnp.github.io/2016/centaur-app/&quot;&gt;here&lt;/a&gt;. In the beginning of month I imagined a production ready app, but by the end of the month I was extremely proud of the single machine learning model I had created and the visual way I displayed my data. You can always revisit your capstone and add more features, so know when to call it quits and polish what you have.&lt;/p&gt;
+
+&lt;p&gt;Be proud of yourself, congratulate yourself and your fellow Adies and remember how damn far you have come!&lt;/p&gt;
+
+&lt;h3 id=&quot;internships&quot;&gt;Internships&lt;/h3&gt;
+
+&lt;p&gt;Internship stress really starts with the company presentations, which will bite into your classroom time. Companies do their pitch and there are limited times provided to squeeze in as much networking as possible. If you’re anything like me (an introvert who loathes networking) this will be exhausting. Keep one thing in mind, you WILL get an internship. I was lucky and had an immediate interest in the Samsung Cloud Native Computing Team, while most of my cohort shied away from the systems-heavy job description, full of things we had not learned anything about during our time at Ada. I was quite vocal about my interest in that internship, which I do think helped me get placed there. But in the end, there is no way to know where you’re going, so sit back, don’t stress about it and be grateful to be given this rad opportunity.&lt;/p&gt;
+
+&lt;p&gt;Once you get placed at your internships, realize the end is near….&lt;/p&gt;
+
+&lt;p&gt;Hit the ground running, advocate for yourself and get some meaty projects to put on your resume. You will want something to talk about in your upcoming interviews. Do not kick back thinking you have “months”…get yours.&lt;/p&gt;
+
+&lt;h3 id=&quot;real-interviews&quot;&gt;Real Interviews&lt;/h3&gt;
+&lt;p&gt;This was the hardest part for me. I am pretty cool headed and a realist, so I was able to not get too stressed before this point. The unfortunate truth is: technical interviews are terrible and the cards are stacked against you. Technical interviews are really setup for recent CS degree grads with an amazing internship on the resume to succeed. There is no way after doing computer programming for 7-8 months you can compete in that environment. So you need to bring something else to the table. Do you have skills from a past career? Talk about them. How can your diversity benefit the company? Talk about it.&lt;/p&gt;
+
+&lt;p&gt;Start studying for interviews as soon as possible, but realize you can’t cram 4 years of education in a few weeks. Just do the best you can. Leverage the Ada Network and be gracious. The companies supporting Ada believe in a future vision of a fully trained, diverse workforce creating better products for a broader consumer base. But right now…you are someone with the potential to be that workforce, only if someone takes a chance and invests in you.&lt;/p&gt;
+
+&lt;p&gt;In your interviews show an openness to learn and an commitment to continually grow. If/when you get offers, negotiate. Know what is important to you and clearly state them. Always ask for more money and give the company reasons why they should make you a better offer.&lt;/p&gt;
+
+&lt;p&gt;###So is it worth it?
+If you’re looking for a change in careers, tech is a great choice. Usually tech companies are progressive, offer flexible schedules, pay well and these jobs are not going away anytime soon. I think Ada is one of the best ways to get into the industry if you can take the year. It’s free, it’s comprehensive, you not only get an education and you also get an amazing network of Adies to support you now and in the future.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about the program or my experience, send me a note!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.geekwire.com/wp-content/uploads/2017/04/adadevelopersacademy.png&quot; alt=&quot;ada logo&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 30 Mar 2017 00:04:23 -0400</pubDate>
+        <link>http://leahnp.github.io/2017/ada-developers-academy/</link>
+        <guid isPermaLink="true">http://leahnp.github.io/2017/ada-developers-academy/</guid>
+        
+        <category>Ada</category>
+        
+        
+        <category>Ada</category>
+        
+      </item>
     
       <item>
         <title>Women’s March on Washington</title>

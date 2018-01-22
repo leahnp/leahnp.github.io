@@ -5,7 +5,7 @@ categories: [Kubernetes]
 tags: [Kubernetes]
 ---
 
-I’ve never been an “exam type”. Attending a liberal arts school like Sarah Lawrence College, then moving into a freelance motorcycle stunt riding career, I have found my comfort zone in creating big projects to prove my skills. So when my team at Samsung floated the idea of taking the brand-new (“Certified Kubernetes Administrator”)[https://www.cncf.io/certification/expert/] exam, I was intimidated - to say the least!
+I’ve never been an “exam type”. Attending a liberal arts school like Sarah Lawrence College, then moving into a freelance motorcycle stunt riding career, I have found my comfort zone in creating big projects to prove my skills. So when my team at Samsung floated the idea of taking the brand-new [“Certified Kubernetes Administrator”](https://www.cncf.io/certification/expert/) exam, I was intimidated - to say the least!
 
 According to the Cloud Native Computing Foundation website, “The Certified Kubernetes Administrator (CKA) program was created by the Cloud Native Computing Foundation (CNCF), in collaboration with The Linux Foundation, to help develop the Kubernetes ecosystem.” 
 
@@ -16,10 +16,10 @@ At this point I had been working with Kubernetes for a year, but I just didn’t
 #### How I prepared:
 
 - I started using VIM full time (the test is entirely terminal based and you have to be QUICK!). 
-- I read the (Kubernetes documentation)[https://kubernetes.io/docs/home/] and did the corresponding tutorials. 
-- I researched JuJu and the (Canonical Kubernetes)[https://jujucharms.com/canonical-kubernetes/] cluster specs (it was pretty different than how our teams' clusters).
-- I went through Kelsey Hightower's ("Kubernetes the Hard Way")[https://github.com/kelseyhightower/kubernetes-the-hard-way].
-- I brushed up on etcd and (etcdctl)[https://github.com/coreos/etcd/tree/master/etcdctl].
+- I read the [Kubernetes documentation](https://kubernetes.io/docs/home/) and did the corresponding tutorials. 
+- I researched JuJu and the [Canonical Kubernetes](https://jujucharms.com/canonical-kubernetes/) cluster specs (it was pretty different than how our teams' clusters).
+- I went through Kelsey Hightower's ["Kubernetes the Hard Way"](https://github.com/kelseyhightower/kubernetes-the-hard-way).
+- I brushed up on etcd and [etcdctl](https://github.com/coreos/etcd/tree/master/etcdctl).
 - I studied with my team - this was great to soak up other people's expertise in certain areas.
 
 Finally, I'd done all I could to prepare and it was exam day. The exam was capped at 3 hours (I took the full 3 hours) and I was being watched through my video camera by a moderator (no drinks, notes or other people in the room). Throughout the test you are given tasks and various clusters in different states to perform these tasks on. It was actually pretty cool to work on and troubleshoot real clusters. 

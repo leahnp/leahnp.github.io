@@ -5,13 +5,13 @@
     <description>Motorcycle stunt woman turned developer, DevOps Engineer specializing in Kubernetes on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2018 17:15:03 -0500</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2018 17:15:03 -0500</lastBuildDate>
+    <pubDate>Mon, 22 Jan 2018 09:33:12 -0500</pubDate>
+    <lastBuildDate>Mon, 22 Jan 2018 09:33:12 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Certified Kubernetes Administrator Exam (CKA)</title>
-        <description>&lt;p&gt;I’ve never been an “exam type”. Attending a liberal arts school like Sarah Lawrence College, then moving into a freelance motorcycle stunt riding career, I have found my comfort zone in creating big projects to prove my skills. So when my team at Samsung floated the idea of taking the brand-new (“Certified Kubernetes Administrator”)[https://www.cncf.io/certification/expert/] exam, I was intimidated - to say the least!&lt;/p&gt;
+        <description>&lt;p&gt;I’ve never been an “exam type”. Attending a liberal arts school like Sarah Lawrence College, then moving into a freelance motorcycle stunt riding career, I have found my comfort zone in creating big projects to prove my skills. So when my team at Samsung floated the idea of taking the brand-new &lt;a href=&quot;https://www.cncf.io/certification/expert/&quot;&gt;“Certified Kubernetes Administrator”&lt;/a&gt; exam, I was intimidated - to say the least!&lt;/p&gt;
 
 &lt;p&gt;According to the Cloud Native Computing Foundation website, “The Certified Kubernetes Administrator (CKA) program was created by the Cloud Native Computing Foundation (CNCF), in collaboration with The Linux Foundation, to help develop the Kubernetes ecosystem.”&lt;/p&gt;
 
@@ -23,10 +23,10 @@
 
 &lt;ul&gt;
   &lt;li&gt;I started using VIM full time (the test is entirely terminal based and you have to be QUICK!).&lt;/li&gt;
-  &lt;li&gt;I read the (Kubernetes documentation)[https://kubernetes.io/docs/home/] and did the corresponding tutorials.&lt;/li&gt;
-  &lt;li&gt;I researched JuJu and the (Canonical Kubernetes)[https://jujucharms.com/canonical-kubernetes/] cluster specs (it was pretty different than how our teams’ clusters).&lt;/li&gt;
-  &lt;li&gt;I went through Kelsey Hightower’s (“Kubernetes the Hard Way”)[https://github.com/kelseyhightower/kubernetes-the-hard-way].&lt;/li&gt;
-  &lt;li&gt;I brushed up on etcd and (etcdctl)[https://github.com/coreos/etcd/tree/master/etcdctl].&lt;/li&gt;
+  &lt;li&gt;I read the &lt;a href=&quot;https://kubernetes.io/docs/home/&quot;&gt;Kubernetes documentation&lt;/a&gt; and did the corresponding tutorials.&lt;/li&gt;
+  &lt;li&gt;I researched JuJu and the &lt;a href=&quot;https://jujucharms.com/canonical-kubernetes/&quot;&gt;Canonical Kubernetes&lt;/a&gt; cluster specs (it was pretty different than how our teams’ clusters).&lt;/li&gt;
+  &lt;li&gt;I went through Kelsey Hightower’s &lt;a href=&quot;https://github.com/kelseyhightower/kubernetes-the-hard-way&quot;&gt;“Kubernetes the Hard Way”&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I brushed up on etcd and &lt;a href=&quot;https://github.com/coreos/etcd/tree/master/etcdctl&quot;&gt;etcdctl&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;I studied with my team - this was great to soak up other people’s expertise in certain areas.&lt;/li&gt;
 &lt;/ul&gt;
 

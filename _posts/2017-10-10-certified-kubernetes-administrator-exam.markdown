@@ -17,8 +17,7 @@ At this point I had been working with Kubernetes for a year, but I just didn’t
 
 - I started using VIM full time (the test is entirely terminal based and you have to be QUICK!). 
 - I read the [Kubernetes documentation](https://kubernetes.io/docs/home/) and did the corresponding tutorials. 
-- I researched JuJu and the [Canonical Kubernetes](https://jujucharms.com/canonical-kubernetes/) cluster specs (it was pretty different than how our teams' clusters).
-- I went through Kelsey Hightower's ["Kubernetes the Hard Way"](https://github.com/kelseyhightower/kubernetes-the-hard-way).
+- Keep in mind the cluster's might be deployed in a way you aren't familiar with - learn the [Kubernetes control plane fundementals](https://kubernetes.io/docs/concepts/overview/components/#master-components) so you can quickly get your footing in the exam clusters.
 - I brushed up on etcd and [etcdctl](https://github.com/coreos/etcd/tree/master/etcdctl).
 - I studied with my team - this was great to soak up other people's expertise in certain areas.
 

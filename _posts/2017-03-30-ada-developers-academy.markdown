@@ -20,7 +20,7 @@ The application process is pretty long and difficult. If you can, carve a few da
 
 If you are waiting for an application window to open, take some online programming courses. I recommend Ruby or Python, there are good ones on Coursera or Codeacademy. Try some tutorials on Git and terminal commands. These will be helpful, but you do not need to know how to code to get into Ada. 
 
-#### Interviews
+### Ada Interviews
 
 For the in person interview portion, remember the people interviewing you are on your side. They are most likely volunteers who really believe in this program and the mission. Show them you care and you are dedicated. Describe things you have accomplished in the past, things you care deeply about, even if you think they are trivial - YOU DID IT, so be proud of that. 
 
@@ -55,7 +55,7 @@ Start studying for interviews as soon as possible, but realize you can’t cram 
 
 In your interviews show an openness to learn and an commitment to continually grow. If/when you get offers, negotiate. Know what is important to you and clearly state them. Always ask for more money and give the company reasons why they should make you a better offer. 
 
-###So is it worth it?
+### So is it worth it?
 If you’re looking for a change in careers, tech is a great choice. Usually tech companies are progressive, offer flexible schedules, pay well and these jobs are not going away anytime soon. I think Ada is one of the best ways to get into the industry if you can take the year. It’s free, it’s comprehensive, you not only get an education and you also get an amazing network of Adies to support you now and in the future. 
 
 If you have any questions about the program or my experience, send me a note!

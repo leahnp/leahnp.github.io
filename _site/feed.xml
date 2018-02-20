@@ -5,9 +5,63 @@
     <description>Motorcycle stunt woman turned developer, DevOps Engineer specializing in Kubernetes on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Jan 2018 07:44:47 -0500</pubDate>
-    <lastBuildDate>Fri, 26 Jan 2018 07:44:47 -0500</lastBuildDate>
+    <pubDate>Tue, 20 Feb 2018 15:59:31 -0500</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2018 15:59:31 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>How Gitlab helped me realize I love CI/CD</title>
+        <description>&lt;h3 id=&quot;moving-from-jenkins-ci-to-gitlab-ci&quot;&gt;Moving from Jenkins CI to Gitlab CI&lt;/h3&gt;
+
+&lt;p&gt;You folks probably know I am newish to tech (just hit my one year anniversary fulltime in the industry) and in the beginning the whole idea of &lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;CI&lt;/a&gt;/&lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_delivery&quot;&gt;CD&lt;/a&gt; seemed like this big, mysterious, robo-conveyor belt moving things from my personal computer to the cloud. But how!?!? But why!?!!? But what!?!!&lt;/p&gt;
+
+&lt;p&gt;The mystery was not aided by the fact we were using Jenkins (in my humble opinion). Now, I don’t have a ton of context in this CI/CD world, so I’m not going to knock Jenkins from a conceptual or technological level; but from a UI/UX level…they aren’t bending over backwards to make their users feel happy or comfortable. As a new user to Jenkins I found myself constantly lost or forgetting “where things were” and wondering why the primary info I desired: why the job failed, was so hard to dig up!&lt;/p&gt;
+
+&lt;p&gt;I just figured; I’m a newb and CI/CD is a complicated product - so all CI/CD platforms must be this way. Then about 9 months into my career, after I was just starting to get competent with Jenkins, my team decided to swap to Gitlab CI. After a brief period of self-pity, that I would have to ramp up on another system, I really dug in and took on some big tickets to help me understand Gitlab’s CI/CD offering. I learned a ton from porting CI/CD pipelines from Jenkins to Gitlab. This allowed me to see the parallels, similarities and dissimilarities between the two products.&lt;/p&gt;
+
+&lt;p&gt;Thing first thing I had to wrap my head around was that Gitlab was both a “web based git repository manager” like Github AND a continuous integration &amp;amp; continuous delivery platform, like Jenkins. If you want to use Gitlab CI/CD you do must create an adjacent repo, you can’t just trigger CI/CD from Github (or where ever your code lives). There are tools to sync Github and Gitlab, if you don’t want to completely delete your project from Github.&lt;/p&gt;
+
+&lt;p&gt;Even before I had experience with Gitlab, I noticed the UI/UX is FRESH! The interface is modern and very intuitive, I was able to “find” things quickly and remember the workflow after a long weekend.  Another cool aspect for our team is that Gitlab is Cloud Native out of the box. Running CI/CD in Kubernetes and containers is a first-class citizen. This creates a fluid experience for teams running CI in containers, compared to relying on a potentially fragile chain of plugins on Jenkins.&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-concepts&quot;&gt;Basic Concepts&lt;/h3&gt;
+
+&lt;p&gt;Here is a breakdown of the primary Gitlab CI/CD concepts:
+##### Pipeline: a group of jobs that get executed in stages
+- Defined in the .gitlab-ci.yml
+- Triggered by events: usually git push; alternatives include scheduling &amp;amp; API hooks
+- All jobs in a stage get executed in parallel
+- If a job fails, the next stage is usually not started
+##### Job:  scoped work necessary to complete a pipeline
+- Defined in the .gitlab-ci.yml
+##### Runner: the application that is used to run your jobs and send the results back to GitLab
+- Written in Go
+- Allows multiple jobs to run concurrently 
+- You select the runner that is right for your CI/CD environment
+##### Executor: modules used to run your builds in different scenarios (we use Kubernetes)
+- Calls the Kubernetes cluster API and creates a new Pod for each GitLab CI job&lt;/p&gt;
+
+&lt;p&gt;The follow image depicts a “pipeline” with each individual “job”. Each section is a “stage”. The green check indicated the job passed.
+&lt;img src=&quot;https://docs.gitlab.com/ee/ci/img/pipelines.png&quot; alt=&quot;gitlab ci pipeline display&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The next image is a different view of two pipelines. You can see all the pipeline metadata from this view and also restart or stop pipelines. 
+&lt;img src=&quot;https://docs.gitlab.com/ee/ci/img/pipelines_index.png&quot; alt=&quot;gitlab ci pipelines&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;I absolutely had some fear after my experience with the complexities of Jenkins to learn a new CI/CD platform. In the end ramping up in Gitlab was a very painless…dare I say an enjoyable experience. Since I started using Gitlab I learned a bit about the company and really respect their &lt;a href=&quot;https://about.gitlab.com/community/&quot;&gt;community&lt;/a&gt; standards, openness and transparency - in addition to their proactive stance on building a platform that people really want. The frictionless nature of Gitlab has allowed me to iterate more quickly, experiment with testing or deployment concepts and really understand what is happening in my CI/CD environment.&lt;/p&gt;
+
+&lt;p&gt;Oh and I realized CI/CD is freaking awesome! It’s amazing what a difference a frictionless environment can make to creativity and productivity.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Jan 2018 22:24:27 -0500</pubDate>
+        <link>http://leahnp.github.io/2018/moving-from-jenkins-to-gitlab-CI/</link>
+        <guid isPermaLink="true">http://leahnp.github.io/2018/moving-from-jenkins-to-gitlab-CI/</guid>
+        
+        <category>Kubernetes</category>
+        
+        
+        <category>Kubernetes</category>
+        
+      </item>
     
       <item>
         <title>Certified Kubernetes Administrator Exam (CKA)</title>

@@ -20,18 +20,22 @@ Even before I had experience with Gitlab, I noticed the UI/UX is FRESH! The inte
 ### Basic Concepts
 
 Here is a breakdown of the primary Gitlab CI/CD concepts:
-##### Pipeline: a group of jobs that get executed in stages
+
+#### **Pipeline**: a group of jobs that get executed in stages
 - Defined in the .gitlab-ci.yml
 - Triggered by events: usually git push; alternatives include scheduling & API hooks
 - All jobs in a stage get executed in parallel
 - If a job fails, the next stage is usually not started
-##### Job:  scoped work necessary to complete a pipeline
+
+#### **Job**:  scoped work necessary to complete a pipeline
 - Defined in the .gitlab-ci.yml
-##### Runner: the application that is used to run your jobs and send the results back to GitLab
+
+#### **Runner**: the application that is used to run your jobs and send the results back to GitLab
 - Written in Go
 - Allows multiple jobs to run concurrently 
 - You select the runner that is right for your CI/CD environment
-##### Executor: modules used to run your builds in different scenarios (we use Kubernetes)
+
+#### **Executor**: modules used to run your builds in different scenarios (we use Kubernetes)
 - Calls the Kubernetes cluster API and creates a new Pod for each GitLab CI job
 
 The follow image depicts a "pipeline" with each individual "job". Each section is a "stage". The green check indicated the job passed.

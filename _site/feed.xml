@@ -5,8 +5,8 @@
     <description>Motorcycle stunt woman turned developer, DevOps Engineer specializing in Kubernetes on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Feb 2018 15:59:31 -0500</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2018 15:59:31 -0500</lastBuildDate>
+    <pubDate>Tue, 20 Feb 2018 16:10:01 -0500</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2018 16:10:01 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -25,20 +25,32 @@
 
 &lt;h3 id=&quot;basic-concepts&quot;&gt;Basic Concepts&lt;/h3&gt;
 
-&lt;p&gt;Here is a breakdown of the primary Gitlab CI/CD concepts:
-##### Pipeline: a group of jobs that get executed in stages
-- Defined in the .gitlab-ci.yml
-- Triggered by events: usually git push; alternatives include scheduling &amp;amp; API hooks
-- All jobs in a stage get executed in parallel
-- If a job fails, the next stage is usually not started
-##### Job:  scoped work necessary to complete a pipeline
-- Defined in the .gitlab-ci.yml
-##### Runner: the application that is used to run your jobs and send the results back to GitLab
-- Written in Go
-- Allows multiple jobs to run concurrently 
-- You select the runner that is right for your CI/CD environment
-##### Executor: modules used to run your builds in different scenarios (we use Kubernetes)
-- Calls the Kubernetes cluster API and creates a new Pod for each GitLab CI job&lt;/p&gt;
+&lt;p&gt;Here is a breakdown of the primary Gitlab CI/CD concepts:&lt;/p&gt;
+
+&lt;h4 id=&quot;pipeline-a-group-of-jobs-that-get-executed-in-stages&quot;&gt;&lt;strong&gt;Pipeline&lt;/strong&gt;: a group of jobs that get executed in stages&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Defined in the .gitlab-ci.yml&lt;/li&gt;
+  &lt;li&gt;Triggered by events: usually git push; alternatives include scheduling &amp;amp; API hooks&lt;/li&gt;
+  &lt;li&gt;All jobs in a stage get executed in parallel&lt;/li&gt;
+  &lt;li&gt;If a job fails, the next stage is usually not started&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;job--scoped-work-necessary-to-complete-a-pipeline&quot;&gt;&lt;strong&gt;Job&lt;/strong&gt;:  scoped work necessary to complete a pipeline&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Defined in the .gitlab-ci.yml&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;runner-the-application-that-is-used-to-run-your-jobs-and-send-the-results-back-to-gitlab&quot;&gt;&lt;strong&gt;Runner&lt;/strong&gt;: the application that is used to run your jobs and send the results back to GitLab&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Written in Go&lt;/li&gt;
+  &lt;li&gt;Allows multiple jobs to run concurrently&lt;/li&gt;
+  &lt;li&gt;You select the runner that is right for your CI/CD environment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;executor-modules-used-to-run-your-builds-in-different-scenarios-we-use-kubernetes&quot;&gt;&lt;strong&gt;Executor&lt;/strong&gt;: modules used to run your builds in different scenarios (we use Kubernetes)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Calls the Kubernetes cluster API and creates a new Pod for each GitLab CI job&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The follow image depicts a “pipeline” with each individual “job”. Each section is a “stage”. The green check indicated the job passed.
 &lt;img src=&quot;https://docs.gitlab.com/ee/ci/img/pipelines.png&quot; alt=&quot;gitlab ci pipeline display&quot; /&gt;&lt;/p&gt;

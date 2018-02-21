@@ -5,7 +5,7 @@ categories: [Kubernetes]
 tags: [Kubernetes]
 ---
 
-I’ve been involved in Kubernetes for a year and a half now. I have been drinking from a fire hydrant, trying to understand all things Kubernetes - the community direction, the proposals, the current solutions, the good, the bad and the ugly. With so many Special Interest Groups (SIGs) and such a broad community iterating so rapidly, I have come to realize this scope of project is hard for most individuals to have a deep understanding in every area. Considering this, I have tried to keep a “broad, but shallow” understanding of the project by attending the weekly community meeting and Kubecon. But recently I wanted to get a “deep” understanding of a specific part of the Kubernetes ecosystem: Cluster Federation. 
+I’ve been involved in Kubernetes for a year and a half now. I have been drinking from a fire hose, trying to understand all things Kubernetes - the community direction, the proposals, the current solutions, the good, the bad and the ugly. With so many Special Interest Groups (SIGs) and such a broad community iterating so rapidly, I have come to realize this scope of project is hard for most individuals to have a deep understanding in every area. Considering this, I have tried to keep a “broad, but shallow” understanding of the project by attending the weekly community meeting and Kubecon. But recently I wanted to get a “deep” understanding of a specific part of the Kubernetes ecosystem: Cluster Federation. 
 
 Federation was always an interesting concept to me, but I had never explored beyond the initial concept of: “it’s a magical way to control multiple kubernetes clusters - potentially in multiple cloud providers and on bare metal and move workloads throughout the cluster federation”. 
 

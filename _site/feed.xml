@@ -5,13 +5,13 @@
     <description>Motorcycle stunt woman turned developer, DevOps Engineer specializing in Kubernetes on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Feb 2018 10:17:10 -0500</pubDate>
-    <lastBuildDate>Wed, 21 Feb 2018 10:17:10 -0500</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2018 10:19:52 -0500</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2018 10:19:52 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>What’s Going on with Kubernetes Cluster Federation?</title>
-        <description>&lt;p&gt;I’ve been involved in Kubernetes for a year and a half now. I have been drinking from a fire hydrant, trying to understand all things Kubernetes - the community direction, the proposals, the current solutions, the good, the bad and the ugly. With so many Special Interest Groups (SIGs) and such a broad community iterating so rapidly, I have come to realize this scope of project is hard for most individuals to have a deep understanding in every area. Considering this, I have tried to keep a “broad, but shallow” understanding of the project by attending the weekly community meeting and Kubecon. But recently I wanted to get a “deep” understanding of a specific part of the Kubernetes ecosystem: Cluster Federation.&lt;/p&gt;
+        <description>&lt;p&gt;I’ve been involved in Kubernetes for a year and a half now. I have been drinking from a fire hose, trying to understand all things Kubernetes - the community direction, the proposals, the current solutions, the good, the bad and the ugly. With so many Special Interest Groups (SIGs) and such a broad community iterating so rapidly, I have come to realize this scope of project is hard for most individuals to have a deep understanding in every area. Considering this, I have tried to keep a “broad, but shallow” understanding of the project by attending the weekly community meeting and Kubecon. But recently I wanted to get a “deep” understanding of a specific part of the Kubernetes ecosystem: Cluster Federation.&lt;/p&gt;
 
 &lt;p&gt;Federation was always an interesting concept to me, but I had never explored beyond the initial concept of: “it’s a magical way to control multiple kubernetes clusters - potentially in multiple cloud providers and on bare metal and move workloads throughout the cluster federation”.&lt;/p&gt;
 

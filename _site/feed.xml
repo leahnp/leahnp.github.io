@@ -5,15 +5,15 @@
     <description>Motorcycle stunt woman turned developer, DevOps Engineer specializing in Kubernetes on the Samsung Cloud Native Computing Team.</description>
     <link>http://leahnp.github.io/</link>
     <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Apr 2018 14:01:20 -0400</pubDate>
-    <lastBuildDate>Sun, 29 Apr 2018 14:01:20 -0400</lastBuildDate>
+    <pubDate>Mon, 07 May 2018 13:24:11 -0400</pubDate>
+    <lastBuildDate>Mon, 07 May 2018 13:24:11 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>What is IP/TCP?</title>
-        <description>&lt;h2 id=&quot;introduction-to-iptcp&quot;&gt;Introduction to IP/TCP&lt;/h2&gt;
+        <title>What is TCP/IP?</title>
+        <description>&lt;h2 id=&quot;introduction-to-tcpip&quot;&gt;Introduction to TCP/IP&lt;/h2&gt;
 
-&lt;h4 id=&quot;what-is-iptcp&quot;&gt;What is IP/TCP?&lt;/h4&gt;
+&lt;h4 id=&quot;what-is-tcpip&quot;&gt;What is TCP/IP?&lt;/h4&gt;
 &lt;p&gt;Transmission Control Protocol (TCP) and Internet Protocol (IP) are two separate computer network protocols. Together they create a “suite” of protocols known as the Internet Protocol Suite (ICP) which is the conceptual model and set of communications protocols used to create the Internet. More plainly put, these are a set of rules that help the internet move data between computers. There are two concepts that can help you understand how the internet moves data quickly but also precisely - &lt;strong&gt;“stateless” and “stateful”&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Stateless means systems can do each job without worrying if the jobs before were successful. It’s like if you were working the window at a fastfood restaurant and you just grabbed a bag of food and threw it out the window not caring if the right person got the right bag of food. You could work as fast as the bags of food came to you. “Stateful” on the other hand means you need to be responsible for the whole lifecycle of the job. Did it get to where it was routed and did it arrive in the correct state? So, is each person getting the bag of food they ordered - you can see how that might slow down your work.&lt;/p&gt;
@@ -46,7 +46,7 @@
 
 &lt;p&gt;Finally we hit the &lt;strong&gt;“Data Link”&lt;/strong&gt; layer. Here some protocol like Ethernet or WiFi will be responsible from getting the data from the Internet to your physical computer. Ethernet and WiFI create a &lt;strong&gt;Local Area Network&lt;/strong&gt; (LAN). These are unique because a central router will act as the sole entrance/exit point to the internet. This router will be assigned that unique IP address that lets other computers find it. The router will be responsible for its own DNS, which will help it route traffic to the specific computer in the LAN, using the computer’s &lt;strong&gt;media access control address&lt;/strong&gt; (MAC address). A unique MAC address is given to your computer when it’s manufactured. Your computer’s IP address can change if your computer moves locations or networks, but its MAC address will not. You might think of it like your social security number will also be the same, but your home address will change if you move.&lt;/p&gt;
 
-&lt;p&gt;There we have it! IP/TCP can help us understand the fundamentals of how the internet works. Each layer and protocol contain more vertical knowledge you can deep dive into, I hope these fundamentals give you enough context to move forward!&lt;/p&gt;
+&lt;p&gt;There we have it! TCP/IP can help us understand the fundamentals of how the internet works. Each layer and protocol contain more vertical knowledge you can deep dive into, I hope these fundamentals give you enough context to move forward!&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 28 Apr 2018 23:16:11 -0400</pubDate>

@@ -1,13 +1,13 @@
 ---
-title:  "What is IP/TCP?"
+title:  "What is TCP/IP?"
 date:   2018-04-29 03:16:11
 categories: [Devops]
 tags: [Devops]
 ---
 
-## Introduction to IP/TCP
+## Introduction to TCP/IP
 
-#### What is IP/TCP?
+#### What is TCP/IP?
 Transmission Control Protocol (TCP) and Internet Protocol (IP) are two separate computer network protocols. Together they create a “suite” of protocols known as the Internet Protocol Suite (ICP) which is the conceptual model and set of communications protocols used to create the Internet. More plainly put, these are a set of rules that help the internet move data between computers. There are two concepts that can help you understand how the internet moves data quickly but also precisely - **"stateless" and "stateful"**. 
 
 Stateless means systems can do each job without worrying if the jobs before were successful. It's like if you were working the window at a fastfood restaurant and you just grabbed a bag of food and threw it out the window not caring if the right person got the right bag of food. You could work as fast as the bags of food came to you. "Stateful" on the other hand means you need to be responsible for the whole lifecycle of the job. Did it get to where it was routed and did it arrive in the correct state? So, is each person getting the bag of food they ordered - you can see how that might slow down your work. 
@@ -40,6 +40,6 @@ Now that we understand a bit of how these computers are finding each other with 
 
 Finally we hit the **“Data Link”** layer. Here some protocol like Ethernet or WiFi will be responsible from getting the data from the Internet to your physical computer. Ethernet and WiFI create a **Local Area Network** (LAN). These are unique because a central router will act as the sole entrance/exit point to the internet. This router will be assigned that unique IP address that lets other computers find it. The router will be responsible for its own DNS, which will help it route traffic to the specific computer in the LAN, using the computer’s **media access control address** (MAC address). A unique MAC address is given to your computer when it's manufactured. Your computer’s IP address can change if your computer moves locations or networks, but its MAC address will not. You might think of it like your social security number will also be the same, but your home address will change if you move.
 
-There we have it! IP/TCP can help us understand the fundamentals of how the internet works. Each layer and protocol contain more vertical knowledge you can deep dive into, I hope these fundamentals give you enough context to move forward!
+There we have it! TCP/IP can help us understand the fundamentals of how the internet works. Each layer and protocol contain more vertical knowledge you can deep dive into, I hope these fundamentals give you enough context to move forward!
 
 

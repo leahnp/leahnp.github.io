@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leah Petersen</title>
-    <description>Motorcycle stunt woman turned developer, DevOps Engineer specializing in Kubernetes on the Samsung Cloud Native Computing Team.</description>
-    <link>http://leahnp.github.io/</link>
-    <atom:link href="http://leahnp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 May 2018 17:33:08 -0400</pubDate>
-    <lastBuildDate>Tue, 08 May 2018 17:33:08 -0400</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <description>Motorcycle stunt woman turned developer, DevOps Engineer specializing in Kubernetes.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 25 Jul 2018 15:35:11 -0400</pubDate>
+    <lastBuildDate>Wed, 25 Jul 2018 15:35:11 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>Basic Linux Concepts</title>
@@ -48,8 +48,8 @@
 &lt;p&gt;Linux is a free and flexible operating system, there are many kinds of Linux distributions which offer different bundles of tools and capabilities. Lots of governments run Linux on their computer - it’s free! Computers hosting websites or applications commonly run use Linux, as do computers tasked with automated testing or serving media.&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 May 2018 00:00:00 -0400</pubDate>
-        <link>http://leahnp.github.io/2018/Basic-Linux-Concepts/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2018/Basic-Linux-Concepts/</guid>
+        <link>http://localhost:4000/2018/Basic-Linux-Concepts/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/Basic-Linux-Concepts/</guid>
         
         
       </item>
@@ -95,8 +95,8 @@
 
 </description>
         <pubDate>Sat, 28 Apr 2018 23:16:11 -0400</pubDate>
-        <link>http://leahnp.github.io/2018/what-is-tcp-ip/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2018/what-is-tcp-ip/</guid>
+        <link>http://localhost:4000/2018/what-is-tcp-ip/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/what-is-tcp-ip/</guid>
         
         <category>Devops</category>
         
@@ -125,15 +125,17 @@
 
 &lt;p&gt;Also reading through the initial proposal will give you an idea of the federation problem space and scope: &lt;a href=&quot;https://github.com/kubernetes/community/blob/master/contributors/design-proposals/multicluster/federation.md&quot;&gt;Kubernetes Cluster Federation (previously nicknamed “Ubernetes”): Requirements Analysis and Product Proposal&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;After wrapping my head around the origins of the project, I started learning about the massive changes and shifts that happened around the project in 2017. Here is a list of the highlights:
-- The Federation project was incubated in the kubernetes/kubernetes project and released with Kubernetes v1.3.
-- Ubernetes project renamed to Federation (more functionally descriptive)
-- Federation moved from Kubernetes/Kubernetes to Kubernetes/Federation in v1.9
-- The SIG Federation renamed to Multicluster
-- Kubefed introduced: A CLI tool to spin up Federation control plane
-- “V1” of the federation problem was deemed “problematic” (my probably over-simplified understanding of why being: v1 was a monolithic “Kubernetes on Kubernetes” API, too closely resembling the single-cluster Kubernetes API, forward work would create a tangential and confusing meta orchestration layer)
-- “V2” conceptualized with more of a microservices approach, offering components that facilitate federation with a multicluster approach
-- SIG Multicluster released new projects: Cluster registry &amp;amp; KubeMCI&lt;/p&gt;
+&lt;p&gt;After wrapping my head around the origins of the project, I started learning about the massive changes and shifts that happened around the project in 2017. Here is a list of the highlights:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Federation project was incubated in the kubernetes/kubernetes project and released with Kubernetes v1.3.&lt;/li&gt;
+  &lt;li&gt;Ubernetes project renamed to Federation (more functionally descriptive)&lt;/li&gt;
+  &lt;li&gt;Federation moved from Kubernetes/Kubernetes to Kubernetes/Federation in v1.9&lt;/li&gt;
+  &lt;li&gt;The SIG Federation renamed to Multicluster&lt;/li&gt;
+  &lt;li&gt;Kubefed introduced: A CLI tool to spin up Federation control plane&lt;/li&gt;
+  &lt;li&gt;“V1” of the federation problem was deemed “problematic” (my probably over-simplified understanding of why being: v1 was a monolithic “Kubernetes on Kubernetes” API, too closely resembling the single-cluster Kubernetes API, forward work would create a tangential and confusing meta orchestration layer)&lt;/li&gt;
+  &lt;li&gt;“V2” conceptualized with more of a microservices approach, offering components that facilitate federation with a multicluster approach&lt;/li&gt;
+  &lt;li&gt;SIG Multicluster released new projects: Cluster registry &amp;amp; KubeMCI&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;So looking back - what happened? Federation was proposed with an agenda in line with Kubernetes in general - abstracting the infrastructure away and creating a world where anyone can deploy anything, anywhere! Ironically in this pursuit of simplicity, Kubernetes (and Federation) have the potential to turn into a hulking monster of complexity. When Federation tried to essentially layer Kubernetes on Kubernetes - the potential for creating a two-headed monster was too real for many people in the community to accept. As a result, the Federation team went back to the drawing board to imagine a more loosely coupled, flexible solution.&lt;/p&gt;
 
@@ -158,8 +160,8 @@
 
 </description>
         <pubDate>Sun, 18 Feb 2018 14:23:10 -0500</pubDate>
-        <link>http://leahnp.github.io/2018/what-happened-to-kubernetes-cluster-federation/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2018/what-happened-to-kubernetes-cluster-federation/</guid>
+        <link>http://localhost:4000/2018/what-happened-to-kubernetes-cluster-federation/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/what-happened-to-kubernetes-cluster-federation/</guid>
         
         <category>Kubernetes</category>
         
@@ -224,8 +226,8 @@
 &lt;p&gt;Oh and I realized CI/CD is freaking awesome! It’s amazing what a difference a frictionless environment can make to creativity and productivity.&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jan 2018 22:24:27 -0500</pubDate>
-        <link>http://leahnp.github.io/2018/moving-from-jenkins-to-gitlab-CI/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2018/moving-from-jenkins-to-gitlab-CI/</guid>
+        <link>http://localhost:4000/2018/moving-from-jenkins-to-gitlab-CI/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/moving-from-jenkins-to-gitlab-CI/</guid>
         
         <category>Kubernetes</category>
         
@@ -272,8 +274,8 @@
 &lt;p&gt;&lt;img src=&quot;https://www.cncf.io/wp-content/uploads/2017/07/logo_cka_whitetext-2.png&quot; alt=&quot;CKA badge&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Oct 2017 15:24:27 -0400</pubDate>
-        <link>http://leahnp.github.io/2017/certified-kubernetes-administrator-exam/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2017/certified-kubernetes-administrator-exam/</guid>
+        <link>http://localhost:4000/2017/certified-kubernetes-administrator-exam/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/certified-kubernetes-administrator-exam/</guid>
         
         <category>Kubernetes</category>
         
@@ -344,8 +346,8 @@
 
 </description>
         <pubDate>Thu, 30 Mar 2017 00:04:23 -0400</pubDate>
-        <link>http://leahnp.github.io/2017/ada-developers-academy/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2017/ada-developers-academy/</guid>
+        <link>http://localhost:4000/2017/ada-developers-academy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/ada-developers-academy/</guid>
         
         <category>Ada</category>
         
@@ -385,8 +387,8 @@
 
 </description>
         <pubDate>Sat, 21 Jan 2017 04:04:23 -0500</pubDate>
-        <link>http://leahnp.github.io/2017/womens-march/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2017/womens-march/</guid>
+        <link>http://localhost:4000/2017/womens-march/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/womens-march/</guid>
         
         <category>Life</category>
         
@@ -426,8 +428,8 @@
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/TfdN0eW.jpg&quot; alt=&quot;Finished project!&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Dec 2016 06:04:23 -0500</pubDate>
-        <link>http://leahnp.github.io/2016/centaur-app/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2016/centaur-app/</guid>
+        <link>http://localhost:4000/2016/centaur-app/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/centaur-app/</guid>
         
         <category>Ada</category>
         
@@ -445,8 +447,8 @@
 &lt;p&gt;The Cloud Native Computing Foundation posted a blog I wrote about my experience &lt;a href=&quot;https://www.cncf.io/blog/2016/11/18/diversity-scholarship-series-time-cloudnativecon-2016&quot;&gt;HERE&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Nov 2016 03:04:23 -0500</pubDate>
-        <link>http://leahnp.github.io/2016/kubecon-2016/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2016/kubecon-2016/</guid>
+        <link>http://localhost:4000/2016/kubecon-2016/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/kubecon-2016/</guid>
         
         <category>Kubernetes</category>
         
@@ -481,8 +483,8 @@
 
 </description>
         <pubDate>Sun, 06 Nov 2016 10:04:23 -0500</pubDate>
-        <link>http://leahnp.github.io/2016/from-wheelies-to-kubernetes/</link>
-        <guid isPermaLink="true">http://leahnp.github.io/2016/from-wheelies-to-kubernetes/</guid>
+        <link>http://localhost:4000/2016/from-wheelies-to-kubernetes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/from-wheelies-to-kubernetes/</guid>
         
         <category>Ada</category>
         
